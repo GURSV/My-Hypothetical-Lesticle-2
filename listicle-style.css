@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.maxim.com/wp-content/uploads/2021/05/cocktails-promo-1024x536.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title-text {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  width: 780px;
+  position: relative;
+  bottom: 160px;
+  text-align: center;
+}
+
+#profile {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+
+#profile-pic img{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  border: 1px solid white;
+}
+
+#profile-text {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#listicle-body {
+    width: 66.67%;
+    position:relative;
+}
+
+.item-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.paragraph-break {
+  height: 20px;
+}
+
+.item-number-container {
+  position:absolute;
+  right:100%;
+}
+
+.item-number {
+  position:absolute;
+  right:40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color:  rgba(0, 0, 0, 0.25);
+}
+
+.item-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-color: rgb(51, 51, 51);
+  margin:0px;
+}
+
+.item {
+  padding:60px 0px;
+}
+
+a {
+  color: #42b4d6;
+  text-decoration: none;
+  font-weight:normal;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+img {
+  position: relative;
+  left: 20%;
+  width: 60%;
+}
